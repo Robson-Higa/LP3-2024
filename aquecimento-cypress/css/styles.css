@@ -1,0 +1,25 @@
+body {
+
+    margin: 0;
+}
+
+#container {
+    padding: 10px;
+}
+
+.person-button {
+
+    background-color: rgb(15, 83, 83);
+    color: white;
+    font-family: 'bold';
+    font-size: 100%;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.person-name {
+    font-family: 'regular';
+}
