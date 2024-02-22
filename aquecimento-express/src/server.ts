@@ -35,7 +35,7 @@ app.get("/dividir", (req, res) => {
     }
     return res.status(400).json({ mensagem: "O divisor não pode ser zero!" });
   }
-  return res.status(400).json({ mensagem: "Numeros inválidos!" });
+  return res.status(400).json({ mensagem: "Números inválidos!" });
 });
 
 app.get("/", (req, res) => res.send("API de Aquecimento 1.0"));
